@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    src: url(helveticaneue.woff2) format('woff2');
+}
+body{
+    background: black;
+    font-size: 16px;
+    font-family: Helvetica; 
+    color: white;
+
+}
+button{background: firebrick
+color white;
+border: 0
+padding: 10px 20px;
+text-transform: uppercase;
+border-radius: 5px;
+}
+
+button:hover{
+    background: lightcoral;
+    color: yellow;
+    cursor: pointer;
+    
+}
+.miboton{ background: green;
+    width: 100px;
+    color: black;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+.miboton:hover{
+    background: rebeccapurple;
+    color: aquamarine;
+    cursor: pointer;
+
+}
+/*estilos globales*/
+h1,h2,h3 {color: lightblue;}
+h1{font-size: 30px;}
+h2{font-size: 15px}
+a{color: red; text-decoration: none;}
+a :hover{color: blueviolet}
+
+/*estilos del header*/
+header {border-bottom: 1px solid darkblue; padding-bottom: 10px;} /*esto es para la linea superior*/
+header >p {color: lightcoral;}
+header >p > span {color: yellowgreen;}
+header:hover{background: greenyellow;}
+/*estilos section*/
+section > article > p {font-size: 10px; font-style: italic}
+section > article > div {width: 50%}
+section > article > div img { width: 100%;}
+
+
+
+body div
+{background: gray; margin:100px; padding: 20px;
+}
+h1 {font-size: 60px; color: lightskyblue; ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article img {width: 400px; }

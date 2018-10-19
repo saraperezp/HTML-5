@@ -1,0 +1,27 @@
+section {
+    width: 500px; height: 500px;
+    background: wheat;
+    text-align: center;
+}
+section > article {
+    width: 200px; height: 200px;
+    background: red;
+    display: inline-block;
+}
+section > article {
+    width: 200px; height: 200px;
+    background: red;
+    display: inline-block;
+}
+section article.blue {background: blue;}
+
+section article.green {background: greenyellow;}
+#rarito {
+    width: 300px;
+    display: block;
+    background: rgba(34, 56, 67, 0.3);
+    border-radius: 20px;
+    top:0;
+    border-bottom: 2px solid black;
+
+}
