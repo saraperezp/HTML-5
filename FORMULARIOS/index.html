@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>
+        REGÍSTRATE
+    </h1>
+    <form method="POST" action="receptionform.html">
+
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre" minlength="2" maxlength="30"
+                pattern="[a-zA-Z ]*" required>
+        </div>
+        <!-- div>(label[for=email](Email:)+input[id=email placeholder="introduce tu email"]) -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="Email" placeholder="Introduce tu email" required>
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="Edad" placeholder="Introduce tu edad" min="14" max="99" required>
+        </div>
+        <h3>Sexo</h3>
+        <div>
+            <input type="radio" name="Sexo" id="masculino" value="1"> <label for="masculino">Masculino</label>
+        </div>
+        <div>
+            <input type="radio" name="Sexo" value="0"> <label for="">Femenino</label>
+        </div>
+        <div>
+            <input type="radio" name="Sexo" value="2"> <label for="">Otro</label>
+        </div>
+
+        <div>
+            <h3>Color preferido</h3>
+
+            <div><input type="checkbox" name="color" id="azul" value="azul"> <label for="azul">azul</label></div>
+            <div><input type="checkbox" name="color" id="rojo" value="rojo"> <label for="">rojo </label></div>
+            <div><input type="checkbox" name="color" id="amarillo" value="amarillo"> <label for="">amarillo </label></div>
+        </div>
+<div >
+    <!-- div>(label[id=pais]{Pais:}+select[name=pais id=pais]) -->
+    <label for="pais" id="pais">Pais</label>
+    <select name="pais" id="pais" required> 
+        
+        <option value="0" disabled selected>Selecciona uno</option>
+        <option value="2">España</option>
+        <option value="3">Estados Unidos</option>
+        <option value="4">Noruega</option>  
+    </select>
+   <!-- div>(label[for=cuentame]{cuenta algo de ti}+textarea[id=cuentame]) -->
+   <div>
+       <label for="cuentame">Cuenta algo sobre ti:
+       </label>
+       <textarea name="cuentame" id="cuentame" placeholder="escribe algo aqui">
+       </textarea>
+   </div>
+
+</div>
+    <div><button>Registrar</button>
+    </div>
+</div>
+
+</form>
+
+
+</body>
+
+</html>

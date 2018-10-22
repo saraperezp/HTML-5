@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    font-style: oblique;
+}
+header>div{width: 19%; height: 100px;background: red;
+display: inline-block;}
+header>nav{
+    width: 80%; height: 100px; background: violet; display: inline-block;
+    }
+section>div{
+    width: 32%;
+    height: 100px;
+    background: yellowgreen;
+    display: inline-block;
+}
+article{width: 100%; height: 100px;
+background: orange;}
+footer{
+    width: 100%; height: 100px;
+    background: blue;
+}
+@media screen and (min-width:360px) and (max-width:435px) {
+    header>div {width:100%;background: green;}
+    header>nav{width: 100%;background: firebrick;}
+}

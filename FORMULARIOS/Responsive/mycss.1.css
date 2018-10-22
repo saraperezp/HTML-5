@@ -1,0 +1,13 @@
+header>div{
+    height: 100px; background: gray; display: inline-block; margin: 5px 5px solid black;}  
+
+    header>nav{
+    height: 100px; background:blue; display: inline-block;
+    }
+    section{
+    height: 300px; display: inline-block; background: gray;margin: 5px 5px
+    }
+
+footer>div{
+    height: 100px; background: red;display: inline-block;margin: 5px 0px; border: 5px solid wheat;
+}

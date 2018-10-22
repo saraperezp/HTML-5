@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ejercicio</title>
+    <link rel="stylesheet" href="stylesej.css">
+
+</head>
+<body>
+<div id="myform">
+    <h1>
+        ¡Bienvenido! Crea tu cuenta
+    </h1>
+    <form method="POST" action="resultado.html">
+        
+        <div> 
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" minlength="2" maxlength="30" pattern="[a-zA-Z ]*" required>
+        </div>
+
+        <div>
+         <label for="telefono"></label>
+        <input type="text" name="telefono" id="telefono" placeholder="Numero de telefono" pattern="[0-9*" required>
+        </div>
+
+        <div>
+        <label for="Email"></label>
+        <input type="text" name="email" id="email" placeholder="direccion email" required>
+        </div>
+
+        <div>
+        <label for="clave"></label>
+        <input type="text" name="nombre" id="clave" placeholder="Clave" required>
+        </div>
+        
+        <div>
+        <input type="checkbox" name="condiciones" id="condiciones" value="1">Acepto los terminos y condiciones generales <label for="condiciones"></label>
+        </div>
+
+        <div>
+        <button>¡Crea tu cuenta!</button>
+    </div>
+    </form>
+</div>  
+</body>
+</html>
