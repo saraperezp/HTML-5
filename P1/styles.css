@@ -1,5 +1,5 @@
 body{background:lightsalmon;}
-h1 {font-size: 40px; color:darkcyan; background:}
+h1 {font-size: 40px; color:darkcyan; background:white}
 
 header div 
 {width:300px;
@@ -19,6 +19,8 @@ p{
 }
 p.amarillo {background: white;}
 p.rojo {background: crimson;}
+
+.bordeado{border: 2px dashed violet}
 article> div> img {width: 200px;}
 h2 {color: fuchsia;}
 
